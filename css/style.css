@@ -1,0 +1,173 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+:root {
+  /* background-color */
+  --primary-bc: #e5e5e5;
+  --secondary-bc: #f5f4fa;
+  --hero-footer-bc: #2f303a;
+  --white-in-progect: #ffffff;
+
+  /* animation color */
+  --primary-activ-color: #2196f3;
+
+  /* text color */
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: inherit;
+}
+body {
+  letter-spacing: 0.03em;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: var(--primary-text-color);
+  background-color: var(--white-in-progect);
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+}
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+.logo,
+.link-nav a,
+.address-link a {
+  text-decoration: none;
+  color: inherit;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: inherit;
+}
+.logo span.logo-web {
+  color: var(--primary-activ-color);
+}
+
+.link-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.list-hover.list a:hover,
+.list-hover.list a:focus,
+.list-hover.list address:hover,
+.list-hover.list address:focus {
+  color: var(--primary-activ-color);
+}
+.link-nav .carrent {
+  color: var(--primary-activ-color);
+}
+.link-nav.cont a {
+  color: var(--secondary-text-color);
+}
+.hero-block,
+.footer-block {
+  background-color: var(--hero-footer-bc);
+}
+
+.hero-block h1 {
+  color: var(--white-in-progect);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button {
+  border-radius: 5px;
+  border-width: 1px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-in-progect);
+  background-color: var(--primary-activ-color);
+  cursor: pointer;
+}
+.hero-block > .button:hover {
+  background-color: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  transition: 20ms;
+}
+.section-advantage .list h3 {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.section-advantage p {
+  color: var(--secondary-text-color);
+  line-height: 1.71;
+}
+.secondary-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.section-ourteam {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  background-color: var(--secondary-bc);
+}
+
+.section-ourteam p {
+  font-weight: 400;
+  color: var(--secondary-text-color);
+}
+.footer-block .logo {
+  color: var(--secondary-bc);
+}
+.footer-block address {
+  text-decoration: none;
+  font-style: inherit;
+  color: var(--white-in-progect);
+}
+.footer-block .list {
+  line-height: 1.71;
+  color: var(--white-in-progect);
+}
+.footer-block .list a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.button-portfolio {
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--secondary-bc);
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--white-in-progect);
+  background-color: var(--primary-activ-color);
+}
+
+.list.portfolio-list h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.list.portfolio-list p {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--secondary-text-color);
+}
