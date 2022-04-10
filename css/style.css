@@ -1,6 +1,3 @@
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
-
 :root {
   /* background-color */
   --primary-bc: #e5e5e5;
@@ -315,7 +312,6 @@ body {
 }
 
 .portfolio-list>.list-item{
-  
   margin-right: 30px;
   margin-bottom: 30px;
 }
